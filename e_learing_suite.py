@@ -281,6 +281,7 @@ canvas.create_window(900, 400, width=300, height=90, window=boutton5)
 boutton6= Button(root, font=('Helvetica',18,'bold italic'), text="Etat", command=next_screen6, activebackground ="red", activeforeground ="yellow", bg='dark green', fg='white', bd=5, anchor='w')
 canvas.create_window(900, 500, width=300, height=90, window=boutton6)
 
-
+boutton_quit= Button(root, font=('Helvetica',18,'bold italic'), text="Quitter", command=callback, activebackground ="red", activeforeground ="yellow", bg='dark green', fg='red', bd=5, anchor='w')
+canvas.create_window(600, 650, width=300, height=90, window=boutton_quit)
 
 root.mainloop()
